@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     var goalView: UIView!
     var startView: UIView!
     
-    var wallRectArray = [CGRect]!
+    var wallRectArray = [CGRect]() //？
 
     override func viewDidLoad() {
         super.viewDidLoad()
